@@ -1,4 +1,4 @@
-from uteis.numeros import *
+from uteis.numbers import *
 from uteis.strings import *
 
 
