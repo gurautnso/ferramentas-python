@@ -9,5 +9,9 @@ def menu(prompt, *opcs):
         print(f'\033[33m{c}\033[m - \033[34m{item}\033[m')
         c += 1
     lin()
-    opc = leiaint(f'\033[32mescolha uma opção:\033[m ')
-    return opc
+    while True:
+        opc = leiaint(f'\033[32mescolha uma opção:\033[m ')
+        if opc in range(1, c):
+            return opc
+        else:
+            print(f'\033[31;40mERRO! Digite um número válido.\033[m')
