@@ -1,16 +1,6 @@
 from uteis.numeros import *
 
 
-def titulo(prompt, tam=42):
-    if tam == 0:
-        tam = len(prompt) + 4
-    print(f'{"="*tam}\n{prompt: ^{tam}}\n{"="*tam}')
-
-
-def lin():
-    print('='*42)
-
-
 def menu(prompt, *opcs):
     titulo(prompt)
     c = 1
