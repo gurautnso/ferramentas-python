@@ -1,4 +1,5 @@
 from uteis.numeros import *
+from uteis.strings import *
 
 
 def menu(prompt, *opcs):
