@@ -1,4 +1,4 @@
-from uteis.interface import *
+from uteis.strings import *
 
 
 def arqexiste(name):
